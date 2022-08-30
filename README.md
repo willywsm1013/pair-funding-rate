@@ -1,5 +1,3 @@
-###### tags: `funding_rate` `crypto`
-
 # Pair Funding Rate
 Some coins have two different markets on FTX. Price of these markets are close but there is always a gap between their funding rates. This project uses **Long-Short Strategy** to build a market neutral strategy and backtests the return. 
 
