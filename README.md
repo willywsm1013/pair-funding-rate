@@ -31,8 +31,9 @@ python main.py <COIN>
 ```
 
 ### Result
-As of 2022/08/30, the returns over time are:
+As of 2022/09/09, the returns over time are:
 ![BTT-KBTT](figure/BTT-KBTT.png)
 ![SHIB-KSHIB](figure/SHIB-KSHIB.png)
 ![SOS-KSOS](figure/SOS-KSOS.png)
+![LUNC-KLUNC](figure/LUNC-KLUNC.png)
 
