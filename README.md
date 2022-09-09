@@ -7,6 +7,7 @@ Some coins have two different markets on FTX. Price of these markets are close b
 |   BTT    |   KBTT     |
 |   SHIB   |   KSHIB    |
 |   SOS    |   KSOS     |
+|   LUNC   |   KLUNC    |
 
 
 ## Install required packages
