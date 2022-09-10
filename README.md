@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 ## Usage
 ### Download data
-Download funding rate history of BTT, KBTT, SHIB, KSHIB, SOS, and KSOS.
+Download funding rate history of BTT, KBTT, SHIB, KSHIB, SOS, KSOS, LUNC, and KLUNC.
 ```
 cd data
 bash download_data.sh
@@ -31,7 +31,7 @@ python main.py <COIN>
 ```
 
 ### Result
-As of 2022/09/09, the returns over time are:
+The returns over time are:
 ![BTT-KBTT](figure/BTT-KBTT.png)
 ![SHIB-KSHIB](figure/SHIB-KSHIB.png)
 ![SOS-KSOS](figure/SOS-KSOS.png)
