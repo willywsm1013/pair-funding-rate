@@ -31,7 +31,7 @@ python main.py <COIN>
 ```
 
 ### Result
-The returns over time are:
+The returns over time are (updated 08:00:00 UTC+8 everyday):
 ![BTT-KBTT](figure/BTT-KBTT.png)
 ![SHIB-KSHIB](figure/SHIB-KSHIB.png)
 ![SOS-KSOS](figure/SOS-KSOS.png)
