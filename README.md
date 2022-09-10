@@ -1,5 +1,5 @@
 # Pair Funding Rate
-Some coins have two different markets on FTX. Price of these markets are close but there is always a gap between their funding rates. This project uses **Long-Short Strategy** to build a market neutral strategy and backtests the return. 
+Some coins have two different futures on FTX. Price of these futures are close but there is always a gap between their funding rates. This project uses **Long-Short Strategy** to build a market neutral strategy and backtests the return. 
 
 
 |   Coin   |   K-Coin   |
@@ -18,14 +18,14 @@ pip install -r requirements.txt
 
 ## Usage
 ### Download data
-Download funding rate history of BTT, KBTT, SHIB, KSHIB, SOS, KSOS, LUNC, and KLUNC.
+Download funding rate history of (K)BTT, (K)SHIB, (K)SOS, (K)LUNC.
 ```
 cd data
 bash download_data.sh
 ```
 
 ### Back Test
-This script automatically backtests long-short strategy on `Coin` and `K-Coin`.
+This script automatically backtests long-short strategy on `Coin` and `KCoin`.
 ```
 python main.py <COIN>
 ```
