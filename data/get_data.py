@@ -67,14 +67,15 @@ class FundingRateCollector():
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('symbol', type=str)
+    parser.add_argument('symbols', type=str, nargs='+')
     parser.add_argument('--threads', type=int, default=4)
 
     args = parser.parse_args()
-    symbol = f'{args.symbol.upper()}-PERP'
-    print (f'Download funding rate history of {symbol} !')
-    collector = FundingRateCollector()
-    df = collector.get_funding_rates(symbol,
-                                     threads=args.threads)
-    print (f'total data num : {len(df)}')
-    df.to_csv(f'{symbol}.csv', index=True)
+    for symbol in args.symbols:
+        symbol = f'{symbol.upper()}-PERP'
+        print (f'Download funding rate history of {symbol} !')
+        collector = FundingRateCollector()
+        df = collector.get_funding_rates(symbol,
+                                         threads=args.threads)
+        print (f'total data num : {len(df)}')
+        df.to_csv(f'{symbol}.csv', index=True)
